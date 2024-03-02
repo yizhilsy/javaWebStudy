@@ -28,4 +28,6 @@ public interface EmpMapper {
     Emp getById(Integer id);
 
     void update(Emp emp);
+
+    Emp getByUsernameAndPassword(Emp emp);
 }

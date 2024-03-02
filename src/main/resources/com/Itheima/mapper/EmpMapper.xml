@@ -74,4 +74,9 @@
         </set>
         where id = #{id}
     </update>
+
+    <!--员工登录查询    -->
+    <select id="getByUsernameAndPassword" resultType = "com.Itheima.pojo.Emp">
+        select * from emp where username = #{username} and password = #{password}
+    </select>
 </mapper>
