@@ -24,6 +24,6 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-shanghai.aliyuncs.com
-    accessKeyId: LTAI5tD8s74Sctj6nV6oWKQJ
-    accessKeySecret: BtrFx6RtMxTEaAOxwGdrJ2kv0CiIU5
+    accessKeyId:
+    accessKeySecret:
     bucketName: shiyulu-tlias
